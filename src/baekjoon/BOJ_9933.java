@@ -13,13 +13,14 @@ public class BOJ_9933 {
 
 		for(int i = 0;i<n;i++){
 			String s = br.readLine();
+
 			set.add(s);
 
 			StringBuilder sb = new StringBuilder(s);
 			String reverse = sb.reverse().toString();
 
 			if(set.contains(reverse)){
-				System.out.println(reverse.length() + "" + reverse.charAt(reverse.length()/2));
+				System.out.println(reverse.length() + " " + reverse.charAt(reverse.length()/2));
 				break;
 			}
 		}
