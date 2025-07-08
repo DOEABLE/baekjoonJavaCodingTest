@@ -1,10 +1,8 @@
 package baekjoon;
 
-import java.io.IOException;
-
 public class Main {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		int[] arr = {1, 3, 5, 7, 9, 11, 13};
 		System.out.println(binarySearch(arr, 9));
 	}
